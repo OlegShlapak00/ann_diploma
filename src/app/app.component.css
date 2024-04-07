@@ -1,0 +1,46 @@
+
+.form_wrapper {
+  background-color: white;
+  margin: 30px 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.table_wrapper {
+  margin: 30px 10%;
+}
+
+.table {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+mat-form-field:not(:last-child) {
+  margin-right: 15px;
+}
+
+.row mat-form-field:first-child {
+  margin-left: 15px;
+}
+
+.row .select {
+  width: calc(50% - 15px);
+}
+
+.form .submit-btn {
+  width: calc(100% - 15px) ;
+  margin: 0 30px 30px 15px;
+  background-color: #8833FF;
+}
+
+.form .submit-btn:disabled {
+  color: #B3B3B3;
+  background-color: #F2F2F2;
+}
